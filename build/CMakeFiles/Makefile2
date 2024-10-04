@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ethan/Github/graphics
+CMAKE_SOURCE_DIR = /home/ethan/Github/hellotriangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ethan/Github/graphics/build
+CMAKE_BINARY_DIR = /home/ethan/Github/hellotriangle/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/my_opengl_project.dir/clean
 CMakeFiles/my_opengl_project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_opengl_project.dir/build.make CMakeFiles/my_opengl_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_opengl_project.dir/build.make CMakeFiles/my_opengl_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ethan/Github/graphics/build/CMakeFiles --progress-num=1,2,3 "Built target my_opengl_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ethan/Github/hellotriangle/build/CMakeFiles --progress-num=1,2,3 "Built target my_opengl_project"
 .PHONY : CMakeFiles/my_opengl_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_opengl_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethan/Github/graphics/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethan/Github/hellotriangle/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/my_opengl_project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethan/Github/graphics/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethan/Github/hellotriangle/build/CMakeFiles 0
 .PHONY : CMakeFiles/my_opengl_project.dir/rule
 
 # Convenience name for target.

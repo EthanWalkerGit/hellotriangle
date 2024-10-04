@@ -798,8 +798,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/ethan/Github/graphics/build",
-		"source" : "/home/ethan/Github/graphics"
+		"build" : "/home/ethan/Github/hellotriangle/build",
+		"source" : "/home/ethan/Github/hellotriangle"
 	},
 	"version" : 
 	{

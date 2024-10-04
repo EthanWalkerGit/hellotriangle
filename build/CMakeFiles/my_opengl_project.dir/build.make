@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ethan/Github/graphics
+CMAKE_SOURCE_DIR = /home/ethan/Github/hellotriangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ethan/Github/graphics/build
+CMAKE_BINARY_DIR = /home/ethan/Github/hellotriangle/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_opengl_project.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/my_opengl_project.dir/progress.make
 include CMakeFiles/my_opengl_project.dir/flags.make
 
 CMakeFiles/my_opengl_project.dir/src/main.cpp.o: CMakeFiles/my_opengl_project.dir/flags.make
-CMakeFiles/my_opengl_project.dir/src/main.cpp.o: /home/ethan/Github/graphics/src/main.cpp
+CMakeFiles/my_opengl_project.dir/src/main.cpp.o: /home/ethan/Github/hellotriangle/src/main.cpp
 CMakeFiles/my_opengl_project.dir/src/main.cpp.o: CMakeFiles/my_opengl_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethan/Github/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_opengl_project.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_opengl_project.dir/src/main.cpp.o -MF CMakeFiles/my_opengl_project.dir/src/main.cpp.o.d -o CMakeFiles/my_opengl_project.dir/src/main.cpp.o -c /home/ethan/Github/graphics/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethan/Github/hellotriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_opengl_project.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_opengl_project.dir/src/main.cpp.o -MF CMakeFiles/my_opengl_project.dir/src/main.cpp.o.d -o CMakeFiles/my_opengl_project.dir/src/main.cpp.o -c /home/ethan/Github/hellotriangle/src/main.cpp
 
 CMakeFiles/my_opengl_project.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_opengl_project.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethan/Github/graphics/src/main.cpp > CMakeFiles/my_opengl_project.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethan/Github/hellotriangle/src/main.cpp > CMakeFiles/my_opengl_project.dir/src/main.cpp.i
 
 CMakeFiles/my_opengl_project.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_opengl_project.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethan/Github/graphics/src/main.cpp -o CMakeFiles/my_opengl_project.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethan/Github/hellotriangle/src/main.cpp -o CMakeFiles/my_opengl_project.dir/src/main.cpp.s
 
 CMakeFiles/my_opengl_project.dir/src/glad.c.o: CMakeFiles/my_opengl_project.dir/flags.make
-CMakeFiles/my_opengl_project.dir/src/glad.c.o: /home/ethan/Github/graphics/src/glad.c
+CMakeFiles/my_opengl_project.dir/src/glad.c.o: /home/ethan/Github/hellotriangle/src/glad.c
 CMakeFiles/my_opengl_project.dir/src/glad.c.o: CMakeFiles/my_opengl_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethan/Github/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_opengl_project.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_opengl_project.dir/src/glad.c.o -MF CMakeFiles/my_opengl_project.dir/src/glad.c.o.d -o CMakeFiles/my_opengl_project.dir/src/glad.c.o -c /home/ethan/Github/graphics/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethan/Github/hellotriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_opengl_project.dir/src/glad.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_opengl_project.dir/src/glad.c.o -MF CMakeFiles/my_opengl_project.dir/src/glad.c.o.d -o CMakeFiles/my_opengl_project.dir/src/glad.c.o -c /home/ethan/Github/hellotriangle/src/glad.c
 
 CMakeFiles/my_opengl_project.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_opengl_project.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ethan/Github/graphics/src/glad.c > CMakeFiles/my_opengl_project.dir/src/glad.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ethan/Github/hellotriangle/src/glad.c > CMakeFiles/my_opengl_project.dir/src/glad.c.i
 
 CMakeFiles/my_opengl_project.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_opengl_project.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ethan/Github/graphics/src/glad.c -o CMakeFiles/my_opengl_project.dir/src/glad.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ethan/Github/hellotriangle/src/glad.c -o CMakeFiles/my_opengl_project.dir/src/glad.c.s
 
 # Object files for target my_opengl_project
 my_opengl_project_OBJECTS = \
@@ -111,7 +111,7 @@ my_opengl_project: CMakeFiles/my_opengl_project.dir/build.make
 my_opengl_project: /usr/lib/x86_64-linux-gnu/libGLX.so
 my_opengl_project: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 my_opengl_project: CMakeFiles/my_opengl_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ethan/Github/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_opengl_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ethan/Github/hellotriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_opengl_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_opengl_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/my_opengl_project.dir/clean:
 .PHONY : CMakeFiles/my_opengl_project.dir/clean
 
 CMakeFiles/my_opengl_project.dir/depend:
-	cd /home/ethan/Github/graphics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethan/Github/graphics /home/ethan/Github/graphics /home/ethan/Github/graphics/build /home/ethan/Github/graphics/build /home/ethan/Github/graphics/build/CMakeFiles/my_opengl_project.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ethan/Github/hellotriangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethan/Github/hellotriangle /home/ethan/Github/hellotriangle /home/ethan/Github/hellotriangle/build /home/ethan/Github/hellotriangle/build /home/ethan/Github/hellotriangle/build/CMakeFiles/my_opengl_project.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_opengl_project.dir/depend
 

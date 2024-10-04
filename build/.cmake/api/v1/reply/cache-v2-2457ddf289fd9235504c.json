@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ethan/Github/graphics/build"
+			"value" : "/home/ethan/Github/hellotriangle/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -158,8 +158,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/c++"
+			"type" : "STRING",
+			"value" : "/usr/bin/g++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -286,8 +286,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
+			"type" : "STRING",
+			"value" : "/usr/bin/gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ethan/Github/graphics/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/ethan/Github/hellotriangle/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ethan/Github/graphics"
+			"value" : "/home/ethan/Github/hellotriangle"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1447,7 +1447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ethan/Github/graphics/build"
+			"value" : "/home/ethan/Github/hellotriangle/build"
 		},
 		{
 			"name" : "main_IS_TOP_LEVEL",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ethan/Github/graphics"
+			"value" : "/home/ethan/Github/hellotriangle"
 		}
 	],
 	"kind" : "cache",

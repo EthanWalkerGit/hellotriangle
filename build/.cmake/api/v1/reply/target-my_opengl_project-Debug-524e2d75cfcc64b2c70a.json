@@ -82,7 +82,7 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/home/ethan/Github/graphics/include"
+					"path" : "/home/ethan/Github/hellotriangle/include"
 				}
 			],
 			"language" : "CXX",
@@ -102,7 +102,7 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/home/ethan/Github/graphics/include"
+					"path" : "/home/ethan/Github/hellotriangle/include"
 				}
 			],
 			"language" : "C",
